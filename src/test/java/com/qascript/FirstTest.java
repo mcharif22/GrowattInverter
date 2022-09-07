@@ -46,7 +46,7 @@ public class FirstTest {
         WebElement max_ac_charge_current = driver.findElement(By.xpath("//*[@id=\"setDevice\"]/table[3]/tbody/tr[12]/td[2]/input"));
         max_ac_charge_current.clear();
         max_ac_charge_current.click();
-        max_ac_charge_current.sendKeys("20");
+        max_ac_charge_current.sendKeys("25");
         WebElement daily_password = driver.findElement(By.xpath("//*[@id=\"val_dialog_setStorage_pwd\"]"));
         daily_password.sendKeys(timeStamp);
         //WebElement save_changes = driver.findElement(By.xpath("//*[@id=\"layui-layer2\"]/div[3]/div[1]/span[1]"));
