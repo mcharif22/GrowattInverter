@@ -37,7 +37,7 @@ public class FirstTest {
         username.sendKeys("mohamad.elcharif");
         password.sendKeys("D@Rock2021");
         login.click();
-        WebElement settings = driver.findElement(By.xpath("//div[@class='op-set radiuTop']/span"));
+        WebElement settings = driver.findElement(By.xpath("//div[@class='op-set radiuTop']"));
         settings.click();
         WebElement agree = driver.findElement(By.xpath("//*[@id=\"dialog-mzsm\"]/div[2]/label"));
         agree.click();
