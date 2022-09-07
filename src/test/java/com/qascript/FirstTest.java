@@ -34,8 +34,8 @@ public class FirstTest {
         WebElement password = driver.findElement(By.id("val_loginPwd"));
         WebElement login = driver.findElement(By.xpath("//button[contains(text(), 'Sign In')]"));
         System.out.println("Step 1 Passed");
-        username.sendKeys("mohamad.elcharif");
-        password.sendKeys("D@Rock2021");
+        username.sendKeys("yourUsername");
+        password.sendKeys("yourPassword");
         login.click();
         WebElement settings = driver.findElement(By.xpath("//div[@class='op-set radiuTop']/span"));
         settings.click();
